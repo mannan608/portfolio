@@ -606,6 +606,87 @@
   color: var(--bs-white);
 }
 
+.progress-bar.javascript {
+  animation: javascript 4s linear forwards;
+  width: 0;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+.progress-bar.php {
+  animation: php 3s linear forwards;
+  width: 0;
+}
+
+@keyframes php {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+.progress-bar.bootstrap {
+  animation: bootstrap 5s linear forwards;
+  width: 0;
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+.progress-bar.react {
+  animation: react 6s linear forwards;
+  width: 0;
+}
+
+@keyframes react {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 96%;
+  }
+}
+.progress-bar.tailwind {
+  animation: tailwind 7s linear forwards;
+  width: 0;
+}
+
+@keyframes tailwind {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+.progress-bar.adobe {
+  animation: adobe 8s linear forwards;
+  width: 0;
+}
+
+@keyframes adobe {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
 @media (max-width: 1366px) {
   .container-fluid {
     width: 1200px;
