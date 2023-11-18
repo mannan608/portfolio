@@ -30,4 +30,5 @@
       }
     );
   }
+  new WOW().init();
 })(jQuery);

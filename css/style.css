@@ -131,9 +131,16 @@
   border-radius: 14px;
   box-shadow: 0px 4px 40px rgba(15, 28, 51, 0.1);
 }
+.career-item h6 span {
+  font-size: 20px;
+  /* margin-left: 10px; */
+}
 .career-item div {
   transform: rotate(-45deg);
   gap: 10px;
+}
+.career-item h6 .fa-plus {
+  font-size: 16px;
 }
 
 .career-item .icon {
