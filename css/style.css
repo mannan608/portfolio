@@ -532,7 +532,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--bs-success-500);
+  background: var(--bs-primary-500);
 }
 .professional-skill ul li {
   display: flex;
@@ -546,7 +546,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--bs-success-500);
+  background: var(--bs-primary-500);
 }
 .professional-skill-wrapper {
   margin-top: 80px;
